@@ -52,7 +52,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     if (!authLoading && !user) {
-      router.replace("/register");
+      router.replace("/login");
       return;
     }
     if (!authLoading && user) {

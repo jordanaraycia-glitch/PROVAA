@@ -303,6 +303,12 @@ export default function RegisterPage() {
             <p className="text-center text-sm text-slate-500 mt-6">
               Após criar sua conta, você será redirecionado ao dashboard automaticamente.
             </p>
+            <p className="text-center text-sm text-slate-500 mt-3">
+              Já tem conta?{' '}
+              <Link href="/login" className="font-semibold text-violet-600 hover:text-violet-700">
+                Entre aqui
+              </Link>
+            </p>
           </div>
         </div>
       </div>

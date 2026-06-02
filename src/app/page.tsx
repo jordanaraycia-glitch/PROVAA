@@ -14,7 +14,7 @@ export default function HomePage() {
       if (user) {
         router.replace("/dashboard");
       } else {
-        router.replace("/register");
+        router.replace("/login");
       }
     }
   }, [user, loading, router]);
